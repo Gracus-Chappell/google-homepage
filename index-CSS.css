@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: red;
+}
+#nav-bar{
+    position: relative;
+    width: 100%;
+    text-align: end;
+    padding: 15px;
+}
+#nav-bar a{
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    vertical-align: middle;
+
+}
+#nav-bar a:hover{
+    text-decoration: underline;  
+}
+#gmail{
+    position: relative;
+    right: 30px;
+}
+#images{
+    right: 15px;
+}
+.material-icons{
+    position: relative;
+    padding: 5px;
+}
+#apps .material-icons:hover{
+    border-radius: 50%;
+    background-color: lightgray;
+    
+}
+#profile{
+    height: 40px;
+    width: 40px;   
+}
+#profile-img{
+    position: relative;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    right: 4px;
+    top: 4px;
+}
+#profile:hover{
+    border-radius: 50%;
+    background-color: lightgray;
+}
+#wrapper{
+    position: relative;
+    margin: auto;
+    width: 600px;
+    top: 100px;
+}
+#google-img{
+    margin: auto;
+    width: 272px;
+    height: 92px;
+}
+#search-bar{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    width: 575px;
+    height: 44px;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+    box-shadow: 0 1px 6px 0 rgb(189, 189, 189);
+    font-size: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#search-icon{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    font-size: 22px;
+    user-select: none;
+    z-index: 1;
+    
+}
+#voice-icon{
+    position: absolute;
+    left: 535px;
+    top: 5px;
+    font-size: 22px;
+    user-select: none;
+    z-index: 1;
+    cursor: pointer;
+}
+#searchbox{
+    position: relative;
+    margin: auto;
+    height: 44px;
+    width: 575px;
+    top: 30px;
+}
+#favourites{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    text-align: center;
+}
+#tile-button{
+    border: none;
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10%;
+    position: relative;
+}
+#tile-button:hover{
+    background-color: rgb(196, 196, 196);
+    cursor: pointer;
+}
+#tile-icon{
+    background-color: lightgray;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+}
+#add-icon{
+    position: relative;
+    top: 25%;
+    width: 24px;
+    height: 24px;  
+}
+#tile-title{
+    position: relative;
+    padding: 10px;
+}
+#customise-button{
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    float: right;
+    top: 565px;
+    margin-right: 15px;
+    background-color: transparent;
+}
+#customise-button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+
+}
